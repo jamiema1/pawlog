@@ -25,6 +25,6 @@ local-start.cmd
 *.sln
 *.sw?
 
-instantclient_19_8/
+instantclient_19_*
 *.dylib
 
