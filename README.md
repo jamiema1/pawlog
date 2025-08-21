@@ -45,7 +45,7 @@ Install all `npm` dependencies.
 npm install
 ```
 
-### Create env file
+### Create `.env` file
 
 Navigate to the server directory.
 
@@ -53,7 +53,7 @@ Navigate to the server directory.
 cd server
 ```
 
-Create a `.env` file with the following contents (Ensure that you replace the placeholders with the correct values).
+Using the `.env.example` [file](https://github.com/jamiema1/pawlog/blob/main/server/.env.example) as a template, create a `.env` file and replace the placeholders with the correct values.
 
 ```
 # TODO: replace <cwl>
@@ -110,6 +110,8 @@ Run `pawlog.sql`
 ```
 start <dir_path>/pawlog.sql
 ```
+
+Finally, exit out of SQL*Plus to prevent `ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit` when running the server.
 
 ### Create local-start script
 
