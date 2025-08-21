@@ -1,0 +1,44 @@
+.container {
+  flex-grow: 1;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  max-height: 100vh;
+}
+
+.header {
+  margin-bottom: var(--mantine-spacing-xl);
+  text-align: center;
+}
+
+.galleryContainer {
+  margin-top: var(--mantine-spacing-md);
+  padding-top: var(--mantine-spacing-md);
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.card {
+  background-color: rgb(253, 242, 228);
+  position: relative;
+
+  &:hover {
+    z-index: 1;
+    transform: scale(1.01);
+    box-shadow: var(--mantine-shadow-md);
+    border-color: light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: var(--mantine-font-size-lg);
+}
+
+.author, .likes {
+  font-size: var(--mantine-font-size-md);
+}
+
+.date {
+  font-size: var(--mantine-font-size-sm);
+}
