@@ -1,21 +1,61 @@
 # PawLog
 
-PawLog is an application for pet owners to connect and share their experiences and advice about their favourite furry friends. Our application will provide users the ability to interact with a community of like-minded people through the creation of posts about their favourite pet, as well as commenting on and browsing other people’s posts.
+![thumbnail](https://github.com/jamiema1/pawlog/blob/main/assets/postGallery.png)
+
+PawLog is an application for pet owners to connect and share their experiences and advice about their favourite furry friends. Our application provides users the ability to interact with a community of like-minded people through the creation of posts about their favourite pet, as well as commenting on and browsing other people’s posts.
 
 # Table of Contents
 
-1. Setup
+1. Project Walkthrough
+    - [User Login](#user-login)
+    - [Gallery](#gallery)
+    - [Post](#post)
+    - [Account](#account)
+    - [Admin](#admin)
+3. Setup
     - [Install client dependencies](#install-client-dependencies)
     - [Install server dependencies](#install-server-dependencies)
     - [Create env file](#create-env-file)
     - [Load mock data](#load-mock-data)
     - [Create local-start script](#create-local-start-script)
-2. Running the project
+4. Running the project
     - [Start the client](#start-the-client)
     - [Setup SSH tunneling](#setup-ssh-tunneling)
     - [Start the server](#start-the-server)
 
-## Setup
+## 1. Project Walkthrough
+
+### User Login
+
+Users can login securely with their credentials or create a new account if they don't already have one.
+
+![login page](https://github.com/jamiema1/pawlog/blob/main/assets/login.png)
+
+### Gallery
+
+From the gallery, users can browse recent posts and filter them by various conditions such as post author, date posted, minimum likes, etc.
+
+![gallery page](https://github.com/jamiema1/pawlog/blob/main/assets/postGallery.png)
+
+### Post
+
+Within an individual post, users can learn more about the post, as well as interact with the community by posting comments.
+
+![post page](https://github.com/jamiema1/pawlog/blob/main/assets/post.png)
+
+### Account
+
+From the accounts page, users can view and modify the information of the pets they own. They are also presented with key insights such as a post breakdown by pet and top regular commenters.
+
+![account page](https://github.com/jamiema1/pawlog/blob/main/assets/account.png)
+
+### Admin
+
+Within the admin panel, admins can see what tables and attributes are available within the database. Moreover, they can also see high level statistics such as highly liked users.
+
+![admin page](https://github.com/jamiema1/pawlog/blob/main/assets/admin.png)
+
+## 2. Setup
 
 ### Install client dependencies
 
@@ -135,7 +175,7 @@ Follow the prompts.
 Please enter the absolute path to the Oracle Instant Client directory: <absolute_path>
 ```
 
-## Running the project
+## 3. Running the project
 
 ### Start the client
 
